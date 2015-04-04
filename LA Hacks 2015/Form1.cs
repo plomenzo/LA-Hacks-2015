@@ -39,10 +39,13 @@ namespace LA_Hacks_2015
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         private void level_1_Button_Click(object sender, EventArgs e)
         {
             level_2_Button.Enabled = true; 
 =======
+=======
+>>>>>>> parent of d2074c1... What the heck
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
             sol1.DoDragDrop(sol1.Image, DragDropEffects.Copy);
@@ -63,6 +66,13 @@ namespace LA_Hacks_2015
         {
             pictureBox3.AllowDrop = true;
             pictureBox2.AllowDrop = true;
+<<<<<<< HEAD
+=======
+=======
+        private void exitLabel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+>>>>>>> parent of d2074c1... What the heck
 >>>>>>> origin/master
         }
     }
