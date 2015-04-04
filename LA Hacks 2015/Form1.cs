@@ -15,5 +15,12 @@ namespace LA_Hacks_2015
         {
             InitializeComponent();
         }
+
+        private void Start_Click(object sender, EventArgs e)
+        {
+            this.Controls.Clear();
+            //this.InitializeComponent();    
+            //mainMenu();
+        }
     }
 }
