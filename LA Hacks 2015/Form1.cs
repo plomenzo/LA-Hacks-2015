@@ -18,17 +18,25 @@ namespace LA_Hacks_2015
 
         private void Start_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectTab("tabPage2");
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            this.Controls.Clear();
+            //this.set
+            //this.InitializeComponent();    
+            //mainMenu();
         }
 
         private void exitLabel_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void introButton_Click(object sender, EventArgs e)
+        {
+            level_1_Button.Enabled = true; 
+        }
+
+        private void level_1_Button_Click(object sender, EventArgs e)
+        {
+            level_2_Button.Enabled = true; 
         }
     }
 }
