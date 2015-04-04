@@ -32,7 +32,7 @@
         private void InitializeComponent()
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
-<<<<<<< HEAD
+
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.level_2_Button = new System.Windows.Forms.Label();
             this.level_1_Button = new System.Windows.Forms.Label();
@@ -40,21 +40,16 @@
             this.exitLabel = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-<<<<<<< HEAD
-<<<<<<< HEAD
+
             this.TEST = new System.Windows.Forms.Button();
             this.introButton = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage3.SuspendLayout();
-=======
->>>>>>> parent of d2074c1... What the heck
-=======
->>>>>>> parent of d2074c1... What the heck
-=======
+
             this.t1 = new System.Windows.Forms.TabPage();
             this.t3 = new System.Windows.Forms.TabPage();
->>>>>>> origin/master
+
             this.TEST = new System.Windows.Forms.Button();
             this.t4 = new System.Windows.Forms.TabPage();
             this.t14 = new System.Windows.Forms.TabPage();
@@ -87,7 +82,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
->>>>>>> origin/master
+
             this.SuspendLayout();
             // 
             // tabControl1
@@ -95,13 +90,12 @@
             this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-<<<<<<< HEAD
+
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(-3, -38);
-<<<<<<< HEAD
-<<<<<<< HEAD
+
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1456, 1036);
@@ -194,11 +188,7 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
-=======
->>>>>>> parent of d2074c1... What the heck
-=======
->>>>>>> parent of d2074c1... What the heck
-=======
+
             this.tabControl1.Controls.Add(this.t1);
             this.tabControl1.Controls.Add(this.t2);
             this.tabControl1.Controls.Add(this.t3);
@@ -221,13 +211,13 @@
             this.tabControl1.Controls.Add(this.t12);
             this.tabControl1.Controls.Add(this.t13);
             this.tabControl1.Location = new System.Drawing.Point(0, -38);
->>>>>>> origin/master
+
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(761, 570);
             this.tabControl1.TabIndex = 2;
             // 
-<<<<<<< HEAD
+
             // tabPage1
             // 
             this.tabPage1.BackgroundImage = global::LA_Hacks_2015.Properties.Resources.batman;
@@ -312,7 +302,6 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
-=======
             // t1
             // 
             this.t1.Controls.Add(this.Start);
@@ -334,7 +323,7 @@
             this.t3.TabIndex = 2;
             this.t3.Text = "tabPage3";
             this.t3.UseVisualStyleBackColor = true;
->>>>>>> origin/master
+
             // 
             // TEST
             // 
@@ -345,7 +334,7 @@
             this.TEST.Text = "TEST";
             this.TEST.UseVisualStyleBackColor = true;
             // 
-<<<<<<< HEAD
+
             // introButton
             // 
             this.introButton.AutoSize = true;
@@ -357,7 +346,7 @@
             this.introButton.TabIndex = 4;
             this.introButton.Text = "Intro";
             this.introButton.Click += new System.EventHandler(this.introButton_Click);
-=======
+
             // t4
             // 
             this.t4.Location = new System.Drawing.Point(4, 22);
@@ -537,7 +526,7 @@
             this.t13.TabIndex = 20;
             this.t13.Text = "tabPage18";
             this.t13.UseVisualStyleBackColor = true;
->>>>>>> origin/master
+
             // 
             // sol1
             // 
@@ -596,19 +585,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
             this.ClientSize = new System.Drawing.Size(1452, 842);
-=======
+
             this.ClientSize = new System.Drawing.Size(900, 400);
->>>>>>> origin/master
-=======
+
             this.ClientSize = new System.Drawing.Size(757, 376);
->>>>>>> parent of d2074c1... What the heck
-=======
             this.ClientSize = new System.Drawing.Size(757, 376);
->>>>>>> parent of d2074c1... What the heck
+
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
@@ -616,30 +600,20 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
-<<<<<<< HEAD
+
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-=======
+
             this.t1.ResumeLayout(false);
             this.t3.ResumeLayout(false);
-<<<<<<< HEAD
+
             ((System.ComponentModel.ISupportInitialize)(this.sol1)).EndInit();
             this.t2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/master
->>>>>>> parent of d2074c1... What the heck
-=======
-=======
->>>>>>> origin/master
->>>>>>> parent of d2074c1... What the heck
->>>>>>> origin/master
+
             this.ResumeLayout(false);
 
         }
@@ -647,7 +621,7 @@
         #endregion
 
         private System.Windows.Forms.TabControl tabControl1;
-<<<<<<< HEAD
+
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
@@ -657,20 +631,15 @@
         private System.Windows.Forms.Label level_1_Button;
         private System.Windows.Forms.Label level_2_Button;
         private System.Windows.Forms.Label introButton;
-=======
         private System.Windows.Forms.TabPage t1;
         private System.Windows.Forms.TabPage t3;
         private System.Windows.Forms.Button TEST;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
         private System.Windows.Forms.Label exitLabel;
         private System.Windows.Forms.Label appTitle;
         private System.Windows.Forms.Label level_1_Button;
         private System.Windows.Forms.Label level_2_Button;
-=======
         private System.Windows.Forms.TextBox textBox1;
->>>>>>> origin/master
         private System.Windows.Forms.TabPage t4;
         private System.Windows.Forms.TabPage t14;
         private System.Windows.Forms.TabPage t15;
@@ -689,23 +658,12 @@
         private System.Windows.Forms.TabPage t11;
         private System.Windows.Forms.TabPage t12;
         private System.Windows.Forms.TabPage t13;
-<<<<<<< HEAD
         private System.Windows.Forms.TabPage t2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox sol1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/master
->>>>>>> parent of d2074c1... What the heck
-=======
-=======
->>>>>>> origin/master
->>>>>>> parent of d2074c1... What the heck
->>>>>>> origin/master
+
     }
 }
 

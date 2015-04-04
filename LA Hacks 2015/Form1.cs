@@ -18,14 +18,13 @@ namespace LA_Hacks_2015
 
         private void Start_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             this.Controls.Clear();
             //this.set
             //this.InitializeComponent();    
             //mainMenu();
-=======
+
             tabControl1.SelectTab("t2");
->>>>>>> origin/master
+
         }
 
         private void exitLabel_Click(object sender, EventArgs e)
@@ -38,17 +37,10 @@ namespace LA_Hacks_2015
             level_1_Button.Enabled = true; 
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         private void level_1_Button_Click(object sender, EventArgs e)
         {
             level_2_Button.Enabled = true; 
-=======
-=======
->>>>>>> parent of d2074c1... What the heck
-=======
->>>>>>> parent of d2074c1... What the heck
+
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
             sol1.DoDragDrop(sol1.Image, DragDropEffects.Copy);
@@ -69,20 +61,11 @@ namespace LA_Hacks_2015
         {
             pictureBox3.AllowDrop = true;
             pictureBox2.AllowDrop = true;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of d2074c1... What the heck
-=======
+
         private void exitLabel_Click(object sender, EventArgs e)
         {
             Application.Exit();
-<<<<<<< HEAD
->>>>>>> parent of d2074c1... What the heck
-=======
->>>>>>> parent of d2074c1... What the heck
->>>>>>> origin/master
+
         }
     }
 }
