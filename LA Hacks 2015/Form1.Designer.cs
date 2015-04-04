@@ -32,6 +32,7 @@
         private void InitializeComponent()
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
+<<<<<<< HEAD
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.level_2_Button = new System.Windows.Forms.Label();
             this.level_1_Button = new System.Windows.Forms.Label();
@@ -39,10 +40,35 @@
             this.exitLabel = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+=======
+            this.t1 = new System.Windows.Forms.TabPage();
+            this.t2 = new System.Windows.Forms.TabPage();
+            this.t3 = new System.Windows.Forms.TabPage();
+>>>>>>> origin/master
             this.TEST = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.t4 = new System.Windows.Forms.TabPage();
+            this.t14 = new System.Windows.Forms.TabPage();
+            this.t15 = new System.Windows.Forms.TabPage();
+            this.t16 = new System.Windows.Forms.TabPage();
+            this.t17 = new System.Windows.Forms.TabPage();
+            this.t18 = new System.Windows.Forms.TabPage();
+            this.t19 = new System.Windows.Forms.TabPage();
+            this.t20 = new System.Windows.Forms.TabPage();
+            this.t21 = new System.Windows.Forms.TabPage();
+            this.t5 = new System.Windows.Forms.TabPage();
+            this.t6 = new System.Windows.Forms.TabPage();
+            this.t7 = new System.Windows.Forms.TabPage();
+            this.t8 = new System.Windows.Forms.TabPage();
+            this.t9 = new System.Windows.Forms.TabPage();
+            this.t10 = new System.Windows.Forms.TabPage();
+            this.t11 = new System.Windows.Forms.TabPage();
+            this.t12 = new System.Windows.Forms.TabPage();
+            this.t13 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage3.SuspendLayout();
+            this.t1.SuspendLayout();
+            this.t2.SuspendLayout();
+            this.t3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -50,15 +76,41 @@
             this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+<<<<<<< HEAD
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(-3, -38);
+=======
+            this.tabControl1.Controls.Add(this.t1);
+            this.tabControl1.Controls.Add(this.t2);
+            this.tabControl1.Controls.Add(this.t3);
+            this.tabControl1.Controls.Add(this.t4);
+            this.tabControl1.Controls.Add(this.t14);
+            this.tabControl1.Controls.Add(this.t15);
+            this.tabControl1.Controls.Add(this.t16);
+            this.tabControl1.Controls.Add(this.t17);
+            this.tabControl1.Controls.Add(this.t18);
+            this.tabControl1.Controls.Add(this.t19);
+            this.tabControl1.Controls.Add(this.t20);
+            this.tabControl1.Controls.Add(this.t21);
+            this.tabControl1.Controls.Add(this.t5);
+            this.tabControl1.Controls.Add(this.t6);
+            this.tabControl1.Controls.Add(this.t7);
+            this.tabControl1.Controls.Add(this.t8);
+            this.tabControl1.Controls.Add(this.t9);
+            this.tabControl1.Controls.Add(this.t10);
+            this.tabControl1.Controls.Add(this.t11);
+            this.tabControl1.Controls.Add(this.t12);
+            this.tabControl1.Controls.Add(this.t13);
+            this.tabControl1.Location = new System.Drawing.Point(0, -38);
+>>>>>>> origin/master
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(761, 570);
             this.tabControl1.TabIndex = 2;
             // 
+<<<<<<< HEAD
             // tabPage1
             // 
             this.tabPage1.BackgroundImage = global::LA_Hacks_2015.Properties.Resources.batman;
@@ -143,6 +195,40 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
+=======
+            // t1
+            // 
+            this.t1.Controls.Add(this.Start);
+            this.t1.Location = new System.Drawing.Point(4, 22);
+            this.t1.Name = "t1";
+            this.t1.Padding = new System.Windows.Forms.Padding(3);
+            this.t1.Size = new System.Drawing.Size(750, 390);
+            this.t1.TabIndex = 0;
+            this.t1.Text = "tabPage1";
+            this.t1.UseVisualStyleBackColor = true;
+            // 
+            // t2
+            // 
+            this.t2.Controls.Add(this.textBox1);
+            this.t2.Location = new System.Drawing.Point(4, 22);
+            this.t2.Name = "t2";
+            this.t2.Padding = new System.Windows.Forms.Padding(3);
+            this.t2.Size = new System.Drawing.Size(750, 390);
+            this.t2.TabIndex = 1;
+            this.t2.Text = "t2";
+            this.t2.UseVisualStyleBackColor = true;
+            // 
+            // t3
+            // 
+            this.t3.Controls.Add(this.TEST);
+            this.t3.Location = new System.Drawing.Point(4, 22);
+            this.t3.Name = "t3";
+            this.t3.Padding = new System.Windows.Forms.Padding(3);
+            this.t3.Size = new System.Drawing.Size(750, 390);
+            this.t3.TabIndex = 2;
+            this.t3.Text = "tabPage3";
+            this.t3.UseVisualStyleBackColor = true;
+>>>>>>> origin/master
             // 
             // TEST
             // 
@@ -152,6 +238,195 @@
             this.TEST.TabIndex = 0;
             this.TEST.Text = "TEST";
             this.TEST.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(367, 147);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "THIS IS TAB 2";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // t4
+            // 
+            this.t4.Location = new System.Drawing.Point(4, 22);
+            this.t4.Name = "t4";
+            this.t4.Padding = new System.Windows.Forms.Padding(3);
+            this.t4.Size = new System.Drawing.Size(750, 390);
+            this.t4.TabIndex = 3;
+            this.t4.Text = "tabPage1";
+            this.t4.UseVisualStyleBackColor = true;
+            // 
+            // t14
+            // 
+            this.t14.Location = new System.Drawing.Point(4, 22);
+            this.t14.Name = "t14";
+            this.t14.Padding = new System.Windows.Forms.Padding(3);
+            this.t14.Size = new System.Drawing.Size(750, 390);
+            this.t14.TabIndex = 4;
+            this.t14.Text = "tabPage2";
+            this.t14.UseVisualStyleBackColor = true;
+            // 
+            // t15
+            // 
+            this.t15.Location = new System.Drawing.Point(4, 22);
+            this.t15.Name = "t15";
+            this.t15.Padding = new System.Windows.Forms.Padding(3);
+            this.t15.Size = new System.Drawing.Size(750, 390);
+            this.t15.TabIndex = 5;
+            this.t15.Text = "tabPage3";
+            this.t15.UseVisualStyleBackColor = true;
+            // 
+            // t16
+            // 
+            this.t16.Location = new System.Drawing.Point(4, 22);
+            this.t16.Name = "t16";
+            this.t16.Padding = new System.Windows.Forms.Padding(3);
+            this.t16.Size = new System.Drawing.Size(750, 390);
+            this.t16.TabIndex = 6;
+            this.t16.Text = "tabPage4";
+            this.t16.UseVisualStyleBackColor = true;
+            // 
+            // t17
+            // 
+            this.t17.Location = new System.Drawing.Point(4, 22);
+            this.t17.Name = "t17";
+            this.t17.Padding = new System.Windows.Forms.Padding(3);
+            this.t17.Size = new System.Drawing.Size(750, 390);
+            this.t17.TabIndex = 7;
+            this.t17.Text = "tabPage5";
+            this.t17.UseVisualStyleBackColor = true;
+            // 
+            // t18
+            // 
+            this.t18.Location = new System.Drawing.Point(4, 22);
+            this.t18.Name = "t18";
+            this.t18.Padding = new System.Windows.Forms.Padding(3);
+            this.t18.Size = new System.Drawing.Size(750, 390);
+            this.t18.TabIndex = 8;
+            this.t18.Text = "tabPage6";
+            this.t18.UseVisualStyleBackColor = true;
+            // 
+            // t19
+            // 
+            this.t19.Location = new System.Drawing.Point(4, 22);
+            this.t19.Name = "t19";
+            this.t19.Padding = new System.Windows.Forms.Padding(3);
+            this.t19.Size = new System.Drawing.Size(750, 390);
+            this.t19.TabIndex = 9;
+            this.t19.Text = "tabPage7";
+            this.t19.UseVisualStyleBackColor = true;
+            // 
+            // t20
+            // 
+            this.t20.Location = new System.Drawing.Point(4, 22);
+            this.t20.Name = "t20";
+            this.t20.Padding = new System.Windows.Forms.Padding(3);
+            this.t20.Size = new System.Drawing.Size(750, 390);
+            this.t20.TabIndex = 10;
+            this.t20.Text = "tabPage8";
+            this.t20.UseVisualStyleBackColor = true;
+            // 
+            // t21
+            // 
+            this.t21.Location = new System.Drawing.Point(4, 22);
+            this.t21.Name = "t21";
+            this.t21.Padding = new System.Windows.Forms.Padding(3);
+            this.t21.Size = new System.Drawing.Size(750, 390);
+            this.t21.TabIndex = 11;
+            this.t21.Text = "tabPage9";
+            this.t21.UseVisualStyleBackColor = true;
+            // 
+            // t5
+            // 
+            this.t5.Location = new System.Drawing.Point(4, 22);
+            this.t5.Name = "t5";
+            this.t5.Padding = new System.Windows.Forms.Padding(3);
+            this.t5.Size = new System.Drawing.Size(750, 390);
+            this.t5.TabIndex = 12;
+            this.t5.Text = "tabPage10";
+            this.t5.UseVisualStyleBackColor = true;
+            // 
+            // t6
+            // 
+            this.t6.Location = new System.Drawing.Point(4, 22);
+            this.t6.Name = "t6";
+            this.t6.Padding = new System.Windows.Forms.Padding(3);
+            this.t6.Size = new System.Drawing.Size(750, 390);
+            this.t6.TabIndex = 13;
+            this.t6.Text = "tabPage11";
+            this.t6.UseVisualStyleBackColor = true;
+            // 
+            // t7
+            // 
+            this.t7.Location = new System.Drawing.Point(4, 22);
+            this.t7.Name = "t7";
+            this.t7.Padding = new System.Windows.Forms.Padding(3);
+            this.t7.Size = new System.Drawing.Size(750, 390);
+            this.t7.TabIndex = 14;
+            this.t7.Text = "tabPage12";
+            this.t7.UseVisualStyleBackColor = true;
+            // 
+            // t8
+            // 
+            this.t8.Location = new System.Drawing.Point(4, 22);
+            this.t8.Name = "t8";
+            this.t8.Padding = new System.Windows.Forms.Padding(3);
+            this.t8.Size = new System.Drawing.Size(750, 390);
+            this.t8.TabIndex = 15;
+            this.t8.Text = "tabPage13";
+            this.t8.UseVisualStyleBackColor = true;
+            // 
+            // t9
+            // 
+            this.t9.Location = new System.Drawing.Point(4, 22);
+            this.t9.Name = "t9";
+            this.t9.Padding = new System.Windows.Forms.Padding(3);
+            this.t9.Size = new System.Drawing.Size(750, 390);
+            this.t9.TabIndex = 16;
+            this.t9.Text = "tabPage14";
+            this.t9.UseVisualStyleBackColor = true;
+            // 
+            // t10
+            // 
+            this.t10.Location = new System.Drawing.Point(4, 22);
+            this.t10.Name = "t10";
+            this.t10.Padding = new System.Windows.Forms.Padding(3);
+            this.t10.Size = new System.Drawing.Size(750, 390);
+            this.t10.TabIndex = 17;
+            this.t10.Text = "tabPage15";
+            this.t10.UseVisualStyleBackColor = true;
+            // 
+            // t11
+            // 
+            this.t11.Location = new System.Drawing.Point(4, 22);
+            this.t11.Name = "t11";
+            this.t11.Padding = new System.Windows.Forms.Padding(3);
+            this.t11.Size = new System.Drawing.Size(750, 390);
+            this.t11.TabIndex = 18;
+            this.t11.Text = "tabPage16";
+            this.t11.UseVisualStyleBackColor = true;
+            // 
+            // t12
+            // 
+            this.t12.Location = new System.Drawing.Point(4, 22);
+            this.t12.Name = "t12";
+            this.t12.Padding = new System.Windows.Forms.Padding(3);
+            this.t12.Size = new System.Drawing.Size(750, 390);
+            this.t12.TabIndex = 19;
+            this.t12.Text = "tabPage17";
+            this.t12.UseVisualStyleBackColor = true;
+            // 
+            // t13
+            // 
+            this.t13.Location = new System.Drawing.Point(4, 22);
+            this.t13.Name = "t13";
+            this.t13.Padding = new System.Windows.Forms.Padding(3);
+            this.t13.Size = new System.Drawing.Size(750, 390);
+            this.t13.TabIndex = 20;
+            this.t13.Text = "tabPage18";
+            this.t13.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -164,9 +439,16 @@
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.tabControl1.ResumeLayout(false);
+<<<<<<< HEAD
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+=======
+            this.t1.ResumeLayout(false);
+            this.t2.ResumeLayout(false);
+            this.t2.PerformLayout();
+            this.t3.ResumeLayout(false);
+>>>>>>> origin/master
             this.ResumeLayout(false);
 
         }
@@ -174,14 +456,36 @@
         #endregion
 
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage t1;
+        private System.Windows.Forms.TabPage t2;
+        private System.Windows.Forms.TabPage t3;
         private System.Windows.Forms.Button TEST;
+<<<<<<< HEAD
         private System.Windows.Forms.Label exitLabel;
         private System.Windows.Forms.Label appTitle;
         private System.Windows.Forms.Label level_1_Button;
         private System.Windows.Forms.Label level_2_Button;
+=======
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TabPage t4;
+        private System.Windows.Forms.TabPage t14;
+        private System.Windows.Forms.TabPage t15;
+        private System.Windows.Forms.TabPage t16;
+        private System.Windows.Forms.TabPage t17;
+        private System.Windows.Forms.TabPage t18;
+        private System.Windows.Forms.TabPage t19;
+        private System.Windows.Forms.TabPage t20;
+        private System.Windows.Forms.TabPage t21;
+        private System.Windows.Forms.TabPage t5;
+        private System.Windows.Forms.TabPage t6;
+        private System.Windows.Forms.TabPage t7;
+        private System.Windows.Forms.TabPage t8;
+        private System.Windows.Forms.TabPage t9;
+        private System.Windows.Forms.TabPage t10;
+        private System.Windows.Forms.TabPage t11;
+        private System.Windows.Forms.TabPage t12;
+        private System.Windows.Forms.TabPage t13;
+>>>>>>> origin/master
     }
 }
 
