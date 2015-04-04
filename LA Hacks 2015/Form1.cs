@@ -26,6 +26,7 @@ namespace LA_Hacks_2015
 
         }
 
+<<<<<<< HEAD
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
             sol1.DoDragDrop(sol1.Image, DragDropEffects.Copy);
@@ -46,6 +47,11 @@ namespace LA_Hacks_2015
         {
             pictureBox3.AllowDrop = true;
             pictureBox2.AllowDrop = true;
+=======
+        private void exitLabel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+>>>>>>> origin/master
         }
     }
 }
