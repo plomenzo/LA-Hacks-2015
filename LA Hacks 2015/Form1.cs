@@ -23,5 +23,10 @@ namespace LA_Hacks_2015
             //this.InitializeComponent();    
             //mainMenu();
         }
+
+        private void exitLabel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
